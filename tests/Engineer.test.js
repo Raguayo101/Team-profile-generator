@@ -65,9 +65,9 @@ describe("Engineer", () => {
     // getRole
     describe("getRole", () => {
         it("getRole() should return \"Employee\"", () => {
-            const testValue = "Engineer";
+            const role = "Engineer";
             const emp = new Engineer ("Drigo", 2, "Drigo@test.com", "raguayo101");
-            expect(emp.getRole()).toBe(testValue);
+            expect(emp.getRole()).toBe(role);
         });
     });
 });
